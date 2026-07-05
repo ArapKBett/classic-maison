@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "首页",
+    "listings": "房源",
+    "residential": "住宅",
+    "commercial": "商业",
+    "land": "土地",
+    "luxury": "豪华",
+    "rentals": "租赁",
+    "industrial": "工业",
+    "projects": "项目",
+    "offers": "优惠",
+    "about": "关于",
+    "contact": "联系"
+  },
+  "hero": {
+    "tagline": "尊贵与地产的完美融合",
+    "sub": "内罗毕最优质的房地产 — 专为少数人甄选。",
+    "cta_listings": "浏览房源",
+    "cta_contact": "联系我们"
+  },
+  "featured": {
+    "title": "精选房产",
+    "subtitle": "从我们的独家投资组合中精心挑选",
+    "view_all": "查看所有房源"
+  },
+  "stats": {
+    "sold": "已售房产",
+    "active": "在售房源",
+    "projects": "完成项目",
+    "years": "卓越年限"
+  },
+  "projects_home": {
+    "title": "即将推出的项目",
+    "subtitle": "及早投资，守护您的传承。",
+    "view_all": "所有项目"
+  },
+  "offers_home": {
+    "title": "当前优惠",
+    "subtitle": "限时优惠 — 把握机会",
+    "view_all": "所有优惠"
+  },
+  "instagram": {
+    "title": "关注我们的旅程",
+    "subtitle": "发现我们最新的房源和生活方式内容",
+    "follow": "关注 @classicmaison"
+  },
+  "cta": {
+    "title": "准备好寻找您的理想房产了吗？",
+    "subtitle": "我们的专家随时待命。让我们实现它。",
+    "whatsapp": "WhatsApp联系",
+    "contact": "发送消息"
+  },
+  "listings": {
+    "title": "所有房源",
+    "filter_type": "房产类型",
+    "filter_status": "状态",
+    "filter_price": "价格范围",
+    "filter_beds": "卧室数量",
+    "all_types": "所有类型",
+    "all_statuses": "所有状态",
+    "sort": "排序方式",
+    "sort_newest": "最新",
+    "sort_price_asc": "价格：从低到高",
+    "sort_price_desc": "价格：从高到低",
+    "no_results": "未找到房产。请尝试调整筛选条件。",
+    "per_month": "/月",
+    "beds": "卧室",
+    "baths": "浴室",
+    "area": "面积",
+    "enquire": "立即询价",
+    "whatsapp": "WhatsApp",
+    "view": "查看详情",
+    "available": "可用",
+    "sold": "已售",
+    "rented": "已租",
+    "under_contract": "签约中",
+    "off_market": "已下架",
+    "featured": "精选"
+  },
+  "property": {
+    "overview": "房产概况",
+    "features": "特色与设施",
+    "location": "位置",
+    "enquire_title": "对这处房产感兴趣？",
+    "enquire_sub": "填写表格或直接通过WhatsApp联系我们。",
+    "related": "相似房产"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们在24小时内回复。",
+    "name": "全名",
+    "email": "电子邮件地址",
+    "phone": "电话号码",
+    "message": "您的留言",
+    "send": "发送消息",
+    "sending": "发送中...",
+    "success": "消息已发送！我们将尽快与您联系。",
+    "whatsapp_line": "在WhatsApp上与我们聊天",
+    "address_label": "办公地址",
+    "address": "Classic Maison，内罗毕，肯尼亚",
+    "phone_label": "电话",
+    "email_label": "电子邮件",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "关于 Classic Maison",
+    "story": "Classic Maison是内罗毕首屈一指的房地产公司，专注于豪华住宅、商业及投资房产。",
+    "mission_title": "我们的使命",
+    "mission": "提供无与伦比的房地产体验 — 建立在信任、专业知识和对卓越的不懈追求之上。",
+    "values_title": "我们的价值观",
+    "values": ["诚信", "卓越", "创新", "客户至上"]
+  },
+  "projects": {
+    "title": "即将推出的项目",
+    "subtitle": "重新定义内罗毕的前瞻性开发项目",
+    "status_planned": "规划中",
+    "status_in_progress": "进行中",
+    "status_completed": "已完成",
+    "status_on_hold": "暂停中",
+    "completion": "预计完工",
+    "units": "总单元数",
+    "available": "可用单元",
+    "from": "起价",
+    "enquire": "登记意向"
+  },
+  "offers": {
+    "title": "特别优惠",
+    "subtitle": "为认真买家提供的独家优惠",
+    "expires": "到期",
+    "days_left": "天剩余",
+    "terms": "条款和条件",
+    "enquire": "领取此优惠",
+    "expired": "优惠已过期",
+    "no_offers": "目前没有有效优惠。请稍后再来。"
+  },
+  "footer": {
+    "tagline": "肯尼亚及更多地区的优质房地产。",
+    "quick_links": "快速链接",
+    "property_types": "房产类型",
+    "follow": "关注我们",
+    "rights": "版权所有。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出了点问题。请再试一次。",
+    "view_more": "查看更多",
+    "back": "返回",
+    "kes": "肯先令",
+    "per_month": "/ 月",
+    "sqft": "平方英尺",
+    "acres": "英亩",
+    "sqm": "平方米"
+  }
+}

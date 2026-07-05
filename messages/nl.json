@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Home",
+    "listings": "Aanbod",
+    "residential": "Residentieel",
+    "commercial": "Commercieel",
+    "land": "Grond",
+    "luxury": "Luxe",
+    "rentals": "Verhuur",
+    "industrial": "Industrieel",
+    "projects": "Projecten",
+    "offers": "Aanbiedingen",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Waar Prestige Vastgoed Ontmoet",
+    "sub": "Nairobis finest vastgoed — samengesteld voor de veeleisende weinigen.",
+    "cta_listings": "Bekijk aanbod",
+    "cta_contact": "Neem contact op"
+  },
+  "featured": {
+    "title": "Uitgelicht Vastgoed",
+    "subtitle": "Handpicked uit ons exclusieve portfolio",
+    "view_all": "Alle aanbiedingen"
+  },
+  "stats": {
+    "sold": "Verkochte objecten",
+    "active": "Actieve vermeldingen",
+    "projects": "Opgeleverde projecten",
+    "years": "Jaren van excellentie"
+  },
+  "projects_home": {
+    "title": "Aankomende Projecten",
+    "subtitle": "Investeer vroeg. Beveilig uw nalatenschap.",
+    "view_all": "Alle projecten"
+  },
+  "offers_home": {
+    "title": "Huidige Aanbiedingen",
+    "subtitle": "Tijdgebonden deals — handel snel",
+    "view_all": "Alle aanbiedingen"
+  },
+  "instagram": {
+    "title": "Volg Onze Reis",
+    "subtitle": "Ontdek onze nieuwste aanbiedingen en lifestyle-content",
+    "follow": "@classicmaison volgen"
+  },
+  "cta": {
+    "title": "Klaar om Uw Droomwoning te Vinden?",
+    "subtitle": "Onze experts staan klaar. Laten we het realiseren.",
+    "whatsapp": "Chat op WhatsApp",
+    "contact": "Stuur een bericht"
+  },
+  "listings": {
+    "title": "Alle Vermeldingen",
+    "filter_type": "Type vastgoed",
+    "filter_status": "Status",
+    "filter_price": "Prijsbereik",
+    "filter_beds": "Slaapkamers",
+    "all_types": "Alle types",
+    "all_statuses": "Alle statussen",
+    "sort": "Sorteren op",
+    "sort_newest": "Nieuwste",
+    "sort_price_asc": "Prijs: laag naar hoog",
+    "sort_price_desc": "Prijs: hoog naar laag",
+    "no_results": "Geen vastgoed gevonden. Pas uw filters aan.",
+    "per_month": "/maand",
+    "beds": "Slaapk.",
+    "baths": "Badk.",
+    "area": "Oppervlak",
+    "enquire": "Nu informeren",
+    "whatsapp": "WhatsApp",
+    "view": "Details bekijken",
+    "available": "Beschikbaar",
+    "sold": "Verkocht",
+    "rented": "Verhuurd",
+    "under_contract": "Onder contract",
+    "off_market": "Niet beschikbaar",
+    "featured": "Uitgelicht"
+  },
+  "property": {
+    "overview": "Vastgoedoverzicht",
+    "features": "Kenmerken & voorzieningen",
+    "location": "Locatie",
+    "enquire_title": "Geïnteresseerd in dit vastgoed?",
+    "enquire_sub": "Vul het formulier in of neem direct contact op via WhatsApp.",
+    "related": "Vergelijkbaar vastgoed"
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "We reageren binnen 24 uur.",
+    "name": "Volledige naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "message": "Uw bericht",
+    "send": "Bericht verzenden",
+    "sending": "Verzenden...",
+    "success": "Bericht verzonden! We nemen snel contact met u op.",
+    "whatsapp_line": "Chat met ons op WhatsApp",
+    "address_label": "Kantooradres",
+    "address": "Classic Maison, Nairobi, Kenia",
+    "phone_label": "Telefoon",
+    "email_label": "E-mail",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "Over Classic Maison",
+    "story": "Classic Maison is Nairobis toonaangevend vastgoedbedrijf, gespecialiseerd in luxe woon-, commercieel en investeringsvastgoed.",
+    "mission_title": "Onze Missie",
+    "mission": "Ongeëvenaarde vastgoedervaringen leveren — gebouwd op vertrouwen, expertise en een onwankelbare zoektocht naar uitmuntendheid.",
+    "values_title": "Onze Waarden",
+    "values": ["Integriteit", "Uitmuntendheid", "Innovatie", "Klant eerst"]
+  },
+  "projects": {
+    "title": "Aankomende Projecten",
+    "subtitle": "Visionaire ontwikkelingen die Nairobi herdefiniëren",
+    "status_planned": "Gepland",
+    "status_in_progress": "In uitvoering",
+    "status_completed": "Voltooid",
+    "status_on_hold": "In de wacht",
+    "completion": "Geschatte oplevering",
+    "units": "Totale eenheden",
+    "available": "Beschikbare eenheden",
+    "from": "Vanaf",
+    "enquire": "Interesse registreren"
+  },
+  "offers": {
+    "title": "Speciale Aanbiedingen",
+    "subtitle": "Exclusieve deals voor serieuze kopers",
+    "expires": "Vervalt",
+    "days_left": "dagen over",
+    "terms": "Voorwaarden",
+    "enquire": "Claim deze aanbieding",
+    "expired": "Aanbieding verlopen",
+    "no_offers": "Geen actieve aanbiedingen op dit moment. Kom snel terug."
+  },
+  "footer": {
+    "tagline": "Premium vastgoed in Kenia en daarbuiten.",
+    "quick_links": "Snelle links",
+    "property_types": "Vastgoedtypen",
+    "follow": "Volg ons",
+    "rights": "Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Er is iets misgegaan. Probeer het opnieuw.",
+    "view_more": "Meer bekijken",
+    "back": "Terug",
+    "kes": "KES",
+    "per_month": "/ mnd",
+    "sqft": "sq ft",
+    "acres": "acres",
+    "sqm": "m²"
+  }
+}

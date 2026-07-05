@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Property {
+  id          String    @id @default(cuid())
+  title       String
+  slug        String    @unique
+  description String
+  type        String    // RESIDENTIAL | COMMERCIAL | LAND | LUXURY | RENTAL | INDUSTRIAL
+  status      String    @default("AVAILABLE") // AVAILABLE | UNDER_CONTRACT | SOLD | RENTED | OFF_MARKET
+  price       Float
+  currency    String    @default("KES")
+  bedrooms    Int?
+  bathrooms   Int?
+  area        Float?
+  areaUnit    String    @default("sqft")
+  location    String
+  address     String
+  city        String
+  country     String    @default("Kenya")
+  latitude    Float?
+  longitude   Float?
+  images      String    @default("[]")
+  features    String    @default("[]")
+  featured    Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  soldAt      DateTime?
+  inquiries   Inquiry[]
+  offers      Offer[]
+}
+
+model Project {
+  id             String    @id @default(cuid())
+  title          String
+  slug           String    @unique
+  description    String
+  status         String    @default("PLANNED") // PLANNED | IN_PROGRESS | COMPLETED | ON_HOLD
+  completionDate DateTime?
+  location       String
+  city           String
+  images         String    @default("[]")
+  features       String    @default("[]")
+  totalUnits     Int?
+  availableUnits Int?
+  priceFrom      Float?
+  currency       String    @default("KES")
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+}
+
+model Offer {
+  id         String    @id @default(cuid())
+  title      String
+  description String
+  discount   Float?
+  terms      String?
+  expiresAt  DateTime?
+  propertyId String?
+  property   Property? @relation(fields: [propertyId], references: [id])
+  active     Boolean   @default(true)
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+}
+
+model Inquiry {
+  id         String    @id @default(cuid())
+  name       String
+  email      String
+  phone      String?
+  message    String
+  propertyId String?
+  property   Property? @relation(fields: [propertyId], references: [id])
+  read       Boolean   @default(false)
+  createdAt  DateTime  @default(now())
+}

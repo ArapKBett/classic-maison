@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "홈",
+    "listings": "매물",
+    "residential": "주거용",
+    "commercial": "상업용",
+    "land": "토지",
+    "luxury": "럭셔리",
+    "rentals": "임대",
+    "industrial": "산업용",
+    "projects": "프로젝트",
+    "offers": "혜택",
+    "about": "회사소개",
+    "contact": "문의"
+  },
+  "hero": {
+    "tagline": "프레스티지와 부동산이 만나는 곳",
+    "sub": "나이로비 최고의 부동산 — 소수의 안목 있는 분들을 위해 엄선.",
+    "cta_listings": "매물 보기",
+    "cta_contact": "문의하기"
+  },
+  "featured": {
+    "title": "추천 매물",
+    "subtitle": "독점 포트폴리오에서 엄선",
+    "view_all": "전체 매물 보기"
+  },
+  "stats": {
+    "sold": "판매된 부동산",
+    "active": "활성 매물",
+    "projects": "완료 프로젝트",
+    "years": "탁월함의 연수"
+  },
+  "projects_home": {
+    "title": "예정 프로젝트",
+    "subtitle": "일찍 투자하고 미래를 확보하세요.",
+    "view_all": "전체 프로젝트"
+  },
+  "offers_home": {
+    "title": "현재 혜택",
+    "subtitle": "기간 한정 혜택 — 빠르게 행동하세요",
+    "view_all": "전체 혜택"
+  },
+  "instagram": {
+    "title": "우리의 여정을 팔로우하세요",
+    "subtitle": "최신 매물과 라이프스타일 콘텐츠를 발견하세요",
+    "follow": "@classicmaison 팔로우"
+  },
+  "cta": {
+    "title": "꿈의 부동산을 찾을 준비가 되셨나요?",
+    "subtitle": "전문가들이 대기 중입니다. 함께 실현합시다.",
+    "whatsapp": "WhatsApp으로 채팅",
+    "contact": "메시지 보내기"
+  },
+  "listings": {
+    "title": "전체 매물",
+    "filter_type": "부동산 유형",
+    "filter_status": "상태",
+    "filter_price": "가격 범위",
+    "filter_beds": "침실 수",
+    "all_types": "전체 유형",
+    "all_statuses": "전체 상태",
+    "sort": "정렬 기준",
+    "sort_newest": "최신순",
+    "sort_price_asc": "가격: 낮은순",
+    "sort_price_desc": "가격: 높은순",
+    "no_results": "매물을 찾을 수 없습니다. 필터를 조정해 보세요.",
+    "per_month": "/월",
+    "beds": "침실",
+    "baths": "욕실",
+    "area": "면적",
+    "enquire": "지금 문의",
+    "whatsapp": "WhatsApp",
+    "view": "상세보기",
+    "available": "매물",
+    "sold": "판매완료",
+    "rented": "임대중",
+    "under_contract": "계약중",
+    "off_market": "비공개",
+    "featured": "추천"
+  },
+  "property": {
+    "overview": "매물 개요",
+    "features": "특징 및 편의시설",
+    "location": "위치",
+    "enquire_title": "이 매물에 관심이 있으신가요?",
+    "enquire_sub": "양식을 작성하거나 WhatsApp으로 직접 문의하세요.",
+    "related": "유사 매물"
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "24시간 내에 답변드립니다.",
+    "name": "성명",
+    "email": "이메일 주소",
+    "phone": "전화번호",
+    "message": "메시지",
+    "send": "메시지 보내기",
+    "sending": "전송 중...",
+    "success": "메시지가 전송되었습니다! 곧 연락드리겠습니다.",
+    "whatsapp_line": "WhatsApp으로 채팅하기",
+    "address_label": "사무실 주소",
+    "address": "Classic Maison, 나이로비, 케냐",
+    "phone_label": "전화",
+    "email_label": "이메일",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "Classic Maison 소개",
+    "story": "Classic Maison은 나이로비 최고의 부동산 회사로, 고급 주거용, 상업용 및 투자용 부동산을 전문으로 합니다.",
+    "mission_title": "우리의 미션",
+    "mission": "신뢰, 전문성, 그리고 탁월함에 대한 불굴의 추구를 바탕으로 비교할 수 없는 부동산 경험을 제공합니다.",
+    "values_title": "우리의 가치",
+    "values": ["성실", "탁월함", "혁신", "고객 우선"]
+  },
+  "projects": {
+    "title": "예정 프로젝트",
+    "subtitle": "나이로비를 재정의하는 비전적 개발",
+    "status_planned": "계획됨",
+    "status_in_progress": "진행 중",
+    "status_completed": "완료",
+    "status_on_hold": "보류",
+    "completion": "예상 완공",
+    "units": "총 세대수",
+    "available": "분양 가능 세대",
+    "from": "부터",
+    "enquire": "관심 등록"
+  },
+  "offers": {
+    "title": "특별 혜택",
+    "subtitle": "진지한 구매자를 위한 독점 혜택",
+    "expires": "만료",
+    "days_left": "일 남음",
+    "terms": "이용약관",
+    "enquire": "이 혜택 받기",
+    "expired": "혜택 만료",
+    "no_offers": "현재 활성 혜택이 없습니다. 곧 다시 확인하세요."
+  },
+  "footer": {
+    "tagline": "케냐와 그 너머의 프리미엄 부동산.",
+    "quick_links": "빠른 링크",
+    "property_types": "부동산 유형",
+    "follow": "팔로우",
+    "rights": "모든 권리 보유.",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다. 다시 시도해 주세요.",
+    "view_more": "더 보기",
+    "back": "뒤로",
+    "kes": "KES",
+    "per_month": "/ 월",
+    "sqft": "sq ft",
+    "acres": "에이커",
+    "sqm": "m²"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Home",
+    "listings": "Listings",
+    "residential": "Residential",
+    "commercial": "Commercial",
+    "land": "Land & Plots",
+    "luxury": "Luxury",
+    "rentals": "Rentals",
+    "industrial": "Industrial",
+    "projects": "Projects",
+    "offers": "Offers",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Where Prestige Meets Property",
+    "sub": "Nairobi's finest real estate — curated for the discerning few.",
+    "cta_listings": "View Listings",
+    "cta_contact": "Contact Us"
+  },
+  "featured": {
+    "title": "Featured Properties",
+    "subtitle": "Handpicked from our exclusive portfolio",
+    "view_all": "View All Listings"
+  },
+  "stats": {
+    "sold": "Properties Sold",
+    "active": "Active Listings",
+    "projects": "Projects Delivered",
+    "years": "Years of Excellence"
+  },
+  "projects_home": {
+    "title": "Upcoming Projects",
+    "subtitle": "Invest early. Secure your legacy.",
+    "view_all": "All Projects"
+  },
+  "offers_home": {
+    "title": "Current Offers",
+    "subtitle": "Limited-time deals — act fast",
+    "view_all": "All Offers"
+  },
+  "instagram": {
+    "title": "Follow Our Journey",
+    "subtitle": "Discover our latest listings and lifestyle content",
+    "follow": "Follow @classicmaison"
+  },
+  "cta": {
+    "title": "Ready to Find Your Dream Property?",
+    "subtitle": "Our experts are standing by. Let's make it happen.",
+    "whatsapp": "Chat on WhatsApp",
+    "contact": "Send a Message"
+  },
+  "listings": {
+    "title": "All Listings",
+    "filter_type": "Property Type",
+    "filter_status": "Status",
+    "filter_price": "Price Range",
+    "filter_beds": "Bedrooms",
+    "all_types": "All Types",
+    "all_statuses": "All Statuses",
+    "sort": "Sort By",
+    "sort_newest": "Newest",
+    "sort_price_asc": "Price: Low to High",
+    "sort_price_desc": "Price: High to Low",
+    "no_results": "No properties found. Try adjusting your filters.",
+    "per_month": "/month",
+    "beds": "Beds",
+    "baths": "Baths",
+    "area": "Area",
+    "enquire": "Enquire Now",
+    "whatsapp": "WhatsApp",
+    "view": "View Details",
+    "available": "Available",
+    "sold": "Sold",
+    "rented": "Rented",
+    "under_contract": "Under Contract",
+    "off_market": "Off Market",
+    "featured": "Featured"
+  },
+  "property": {
+    "overview": "Property Overview",
+    "features": "Features & Amenities",
+    "location": "Location",
+    "enquire_title": "Interested in this property?",
+    "enquire_sub": "Fill the form or reach us directly on WhatsApp.",
+    "related": "Similar Properties"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We respond within 24 hours.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent! We'll be in touch shortly.",
+    "whatsapp_line": "Chat with us on WhatsApp",
+    "address_label": "Office Address",
+    "address": "Classic Maison, Nairobi, Kenya",
+    "phone_label": "Phone",
+    "email_label": "Email",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "About Classic Maison",
+    "story": "Classic Maison is Nairobi's premier real estate company, specialising in luxury residential, commercial, and investment properties. With a commitment to excellence and a deep understanding of the Kenyan market, we connect discerning clients with properties that exceed their expectations.",
+    "mission_title": "Our Mission",
+    "mission": "To deliver unparalleled real estate experiences — built on trust, expertise, and an unwavering pursuit of excellence.",
+    "values_title": "Our Values",
+    "values": ["Integrity", "Excellence", "Innovation", "Client First"]
+  },
+  "projects": {
+    "title": "Upcoming Projects",
+    "subtitle": "Visionary developments redefining Nairobi",
+    "status_planned": "Planned",
+    "status_in_progress": "In Progress",
+    "status_completed": "Completed",
+    "status_on_hold": "On Hold",
+    "completion": "Estimated Completion",
+    "units": "Total Units",
+    "available": "Available Units",
+    "from": "From",
+    "enquire": "Register Interest"
+  },
+  "offers": {
+    "title": "Special Offers",
+    "subtitle": "Exclusive deals for serious buyers",
+    "expires": "Expires",
+    "days_left": "days left",
+    "terms": "Terms & Conditions",
+    "enquire": "Claim This Offer",
+    "expired": "Offer Expired",
+    "no_offers": "No active offers at this time. Check back soon."
+  },
+  "footer": {
+    "tagline": "Premium real estate in Kenya and beyond.",
+    "quick_links": "Quick Links",
+    "property_types": "Property Types",
+    "follow": "Follow Us",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "view_more": "View More",
+    "back": "Back",
+    "kes": "KES",
+    "per_month": "/ mo",
+    "sqft": "sq ft",
+    "acres": "acres",
+    "sqm": "sq m"
+  }
+}

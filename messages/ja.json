@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "listings": "物件一覧",
+    "residential": "住宅",
+    "commercial": "商業",
+    "land": "土地",
+    "luxury": "高級",
+    "rentals": "賃貸",
+    "industrial": "工業",
+    "projects": "プロジェクト",
+    "offers": "特別価格",
+    "about": "会社概要",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "tagline": "格式と不動産の出会い",
+    "sub": "ナイロビの最高の不動産 — 選ばれた少数のために厳選。",
+    "cta_listings": "物件を見る",
+    "cta_contact": "お問い合わせ"
+  },
+  "featured": {
+    "title": "注目の物件",
+    "subtitle": "独自のポートフォリオから厳選",
+    "view_all": "全物件を見る"
+  },
+  "stats": {
+    "sold": "売却済み物件",
+    "active": "掲載中物件",
+    "projects": "完成プロジェクト",
+    "years": "優れた年数"
+  },
+  "projects_home": {
+    "title": "今後のプロジェクト",
+    "subtitle": "早期投資で未来を確保。",
+    "view_all": "全プロジェクト"
+  },
+  "offers_home": {
+    "title": "現在の特別価格",
+    "subtitle": "期間限定オファー — 今すぐ行動",
+    "view_all": "全オファー"
+  },
+  "instagram": {
+    "title": "私たちの旅をフォロー",
+    "subtitle": "最新の物件やライフスタイルコンテンツを発見",
+    "follow": "@classicmaisonをフォロー"
+  },
+  "cta": {
+    "title": "夢の物件を見つける準備はできていますか？",
+    "subtitle": "専門家が待機中です。実現しましょう。",
+    "whatsapp": "WhatsAppでチャット",
+    "contact": "メッセージを送る"
+  },
+  "listings": {
+    "title": "全物件一覧",
+    "filter_type": "物件タイプ",
+    "filter_status": "ステータス",
+    "filter_price": "価格帯",
+    "filter_beds": "寝室数",
+    "all_types": "全タイプ",
+    "all_statuses": "全ステータス",
+    "sort": "並び替え",
+    "sort_newest": "新着順",
+    "sort_price_asc": "価格：安い順",
+    "sort_price_desc": "価格：高い順",
+    "no_results": "物件が見つかりません。フィルターを調整してください。",
+    "per_month": "/月",
+    "beds": "寝室",
+    "baths": "浴室",
+    "area": "面積",
+    "enquire": "今すぐ問い合わせ",
+    "whatsapp": "WhatsApp",
+    "view": "詳細を見る",
+    "available": "利用可能",
+    "sold": "売却済み",
+    "rented": "賃貸中",
+    "under_contract": "契約中",
+    "off_market": "非公開",
+    "featured": "注目"
+  },
+  "property": {
+    "overview": "物件概要",
+    "features": "特徴とアメニティ",
+    "location": "場所",
+    "enquire_title": "この物件に興味がありますか？",
+    "enquire_sub": "フォームに記入するか、WhatsAppで直接お問い合わせください。",
+    "related": "類似物件"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "24時間以内に返信いたします。",
+    "name": "氏名",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "message": "メッセージ",
+    "send": "送信する",
+    "sending": "送信中...",
+    "success": "メッセージを送信しました！間もなくご連絡いたします。",
+    "whatsapp_line": "WhatsAppでチャット",
+    "address_label": "オフィス住所",
+    "address": "Classic Maison、ナイロビ、ケニア",
+    "phone_label": "電話",
+    "email_label": "メール",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "Classic Maisonについて",
+    "story": "Classic Maisonはナイロビ最高の不動産会社で、高級住宅、商業施設、投資物件を専門としています。",
+    "mission_title": "私たちのミッション",
+    "mission": "信頼、専門知識、卓越性への不断の追求に基づいた、比類なき不動産体験を提供する。",
+    "values_title": "私たちの価値観",
+    "values": ["誠実さ", "卓越性", "革新", "顧客第一"]
+  },
+  "projects": {
+    "title": "今後のプロジェクト",
+    "subtitle": "ナイロビを再定義するビジョナリーな開発",
+    "status_planned": "計画中",
+    "status_in_progress": "進行中",
+    "status_completed": "完了",
+    "status_on_hold": "保留中",
+    "completion": "完成予定",
+    "units": "総ユニット数",
+    "available": "利用可能ユニット",
+    "from": "から",
+    "enquire": "関心を登録"
+  },
+  "offers": {
+    "title": "特別オファー",
+    "subtitle": "真剣な購入者向けの独占オファー",
+    "expires": "期限",
+    "days_left": "日残り",
+    "terms": "利用規約",
+    "enquire": "このオファーを獲得",
+    "expired": "オファー期限切れ",
+    "no_offers": "現在有効なオファーはありません。また後でご確認ください。"
+  },
+  "footer": {
+    "tagline": "ケニアおよびそれ以外のプレミアム不動産。",
+    "quick_links": "クイックリンク",
+    "property_types": "物件タイプ",
+    "follow": "フォローする",
+    "rights": "全著作権所有。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "問題が発生しました。もう一度お試しください。",
+    "view_more": "もっと見る",
+    "back": "戻る",
+    "kes": "KES",
+    "per_month": "/ 月",
+    "sqft": "sq ft",
+    "acres": "エーカー",
+    "sqm": "m²"
+  }
+}

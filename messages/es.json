@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "listings": "Propiedades",
+    "residential": "Residencial",
+    "commercial": "Comercial",
+    "land": "Terrenos",
+    "luxury": "Lujo",
+    "rentals": "Alquiler",
+    "industrial": "Industrial",
+    "projects": "Proyectos",
+    "offers": "Ofertas",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tagline": "Donde el Prestigio Se Encuentra con la Propiedad",
+    "sub": "Los mejores bienes raíces de Nairobi — seleccionados para los pocos elegidos.",
+    "cta_listings": "Ver propiedades",
+    "cta_contact": "Contáctenos"
+  },
+  "featured": {
+    "title": "Propiedades Destacadas",
+    "subtitle": "Seleccionadas de nuestra cartera exclusiva",
+    "view_all": "Ver todas las propiedades"
+  },
+  "stats": {
+    "sold": "Propiedades vendidas",
+    "active": "Listados activos",
+    "projects": "Proyectos entregados",
+    "years": "Años de excelencia"
+  },
+  "projects_home": {
+    "title": "Próximos Proyectos",
+    "subtitle": "Invierte temprano. Asegura tu legado.",
+    "view_all": "Todos los proyectos"
+  },
+  "offers_home": {
+    "title": "Ofertas Actuales",
+    "subtitle": "Ofertas por tiempo limitado — actúa rápido",
+    "view_all": "Todas las ofertas"
+  },
+  "instagram": {
+    "title": "Sigue Nuestro Camino",
+    "subtitle": "Descubre nuestros últimos listados y contenido de estilo de vida",
+    "follow": "Seguir @classicmaison"
+  },
+  "cta": {
+    "title": "¿Listo para Encontrar tu Propiedad de Ensueño?",
+    "subtitle": "Nuestros expertos están disponibles. Hagámoslo realidad.",
+    "whatsapp": "Chatear en WhatsApp",
+    "contact": "Enviar mensaje"
+  },
+  "listings": {
+    "title": "Todas las Propiedades",
+    "filter_type": "Tipo de propiedad",
+    "filter_status": "Estado",
+    "filter_price": "Rango de precio",
+    "filter_beds": "Habitaciones",
+    "all_types": "Todos los tipos",
+    "all_statuses": "Todos los estados",
+    "sort": "Ordenar por",
+    "sort_newest": "Más reciente",
+    "sort_price_asc": "Precio: menor a mayor",
+    "sort_price_desc": "Precio: mayor a menor",
+    "no_results": "No se encontraron propiedades. Intenta ajustar tus filtros.",
+    "per_month": "/mes",
+    "beds": "Hab.",
+    "baths": "Baños",
+    "area": "Área",
+    "enquire": "Consultar ahora",
+    "whatsapp": "WhatsApp",
+    "view": "Ver detalles",
+    "available": "Disponible",
+    "sold": "Vendido",
+    "rented": "Alquilado",
+    "under_contract": "Bajo contrato",
+    "off_market": "Fuera del mercado",
+    "featured": "Destacado"
+  },
+  "property": {
+    "overview": "Resumen de la propiedad",
+    "features": "Características y amenidades",
+    "location": "Ubicación",
+    "enquire_title": "¿Interesado en esta propiedad?",
+    "enquire_sub": "Completa el formulario o contáctanos directamente por WhatsApp.",
+    "related": "Propiedades similares"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Respondemos en 24 horas.",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Número de teléfono",
+    "message": "Tu mensaje",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado! Nos pondremos en contacto pronto.",
+    "whatsapp_line": "Chatea con nosotros en WhatsApp",
+    "address_label": "Dirección de la oficina",
+    "address": "Classic Maison, Nairobi, Kenia",
+    "phone_label": "Teléfono",
+    "email_label": "Correo electrónico",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "Sobre Classic Maison",
+    "story": "Classic Maison es la empresa inmobiliaria líder de Nairobi, especializada en propiedades residenciales de lujo, comerciales y de inversión.",
+    "mission_title": "Nuestra Misión",
+    "mission": "Brindar experiencias inmobiliarias incomparables — basadas en confianza, experiencia y búsqueda incesante de la excelencia.",
+    "values_title": "Nuestros Valores",
+    "values": ["Integridad", "Excelencia", "Innovación", "El cliente primero"]
+  },
+  "projects": {
+    "title": "Próximos Proyectos",
+    "subtitle": "Desarrollos visionarios que redefinen Nairobi",
+    "status_planned": "Planificado",
+    "status_in_progress": "En progreso",
+    "status_completed": "Completado",
+    "status_on_hold": "En pausa",
+    "completion": "Finalización estimada",
+    "units": "Total de unidades",
+    "available": "Unidades disponibles",
+    "from": "Desde",
+    "enquire": "Registrar interés"
+  },
+  "offers": {
+    "title": "Ofertas Especiales",
+    "subtitle": "Ofertas exclusivas para compradores serios",
+    "expires": "Expira",
+    "days_left": "días restantes",
+    "terms": "Términos y condiciones",
+    "enquire": "Reclamar esta oferta",
+    "expired": "Oferta expirada",
+    "no_offers": "No hay ofertas activas en este momento. Vuelve pronto."
+  },
+  "footer": {
+    "tagline": "Bienes raíces premium en Kenia y más allá.",
+    "quick_links": "Enlaces rápidos",
+    "property_types": "Tipos de propiedad",
+    "follow": "Síguenos",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal. Por favor intenta de nuevo.",
+    "view_more": "Ver más",
+    "back": "Atrás",
+    "kes": "KES",
+    "per_month": "/ mes",
+    "sqft": "pie²",
+    "acres": "acres",
+    "sqm": "m²"
+  }
+}

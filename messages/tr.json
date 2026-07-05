@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "listings": "İlanlar",
+    "residential": "Konut",
+    "commercial": "Ticari",
+    "land": "Arazi",
+    "luxury": "Lüks",
+    "rentals": "Kiralık",
+    "industrial": "Endüstriyel",
+    "projects": "Projeler",
+    "offers": "Teklifler",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "tagline": "Prestij ile Gayrimenkulün Buluştuğu Yer",
+    "sub": "Nairobi'nin en iyi gayrimenkulleri — seçkin azınlık için özenle seçilmiş.",
+    "cta_listings": "İlanları Gör",
+    "cta_contact": "Bize Ulaşın"
+  },
+  "featured": {
+    "title": "Öne Çıkan Mülkler",
+    "subtitle": "Özel portföyümüzden el ile seçilmiş",
+    "view_all": "Tüm İlanları Gör"
+  },
+  "stats": {
+    "sold": "Satılan Mülk",
+    "active": "Aktif İlan",
+    "projects": "Teslim Edilen Proje",
+    "years": "Mükemmellik Yılı"
+  },
+  "projects_home": {
+    "title": "Yaklaşan Projeler",
+    "subtitle": "Erken yatırım yapın. Mirasınızı güvence altına alın.",
+    "view_all": "Tüm Projeler"
+  },
+  "offers_home": {
+    "title": "Mevcut Teklifler",
+    "subtitle": "Sınırlı süreli fırsatlar — hızlı hareket edin",
+    "view_all": "Tüm Teklifler"
+  },
+  "instagram": {
+    "title": "Yolculuğumuzu Takip Edin",
+    "subtitle": "En son ilanlarımızı ve yaşam tarzı içeriklerimizi keşfedin",
+    "follow": "@classicmaison'u Takip Et"
+  },
+  "cta": {
+    "title": "Hayalinizdeki Mülkü Bulmaya Hazır Mısınız?",
+    "subtitle": "Uzmanlarımız bekliyor. Birlikte gerçek yapalım.",
+    "whatsapp": "WhatsApp'tan Sohbet Et",
+    "contact": "Mesaj Gönder"
+  },
+  "listings": {
+    "title": "Tüm İlanlar",
+    "filter_type": "Mülk Türü",
+    "filter_status": "Durum",
+    "filter_price": "Fiyat Aralığı",
+    "filter_beds": "Yatak Odası",
+    "all_types": "Tüm Türler",
+    "all_statuses": "Tüm Durumlar",
+    "sort": "Sırala",
+    "sort_newest": "En Yeni",
+    "sort_price_asc": "Fiyat: Düşükten Yükseğe",
+    "sort_price_desc": "Fiyat: Yüksekten Düşüğe",
+    "no_results": "Mülk bulunamadı. Filtrelerinizi ayarlamayı deneyin.",
+    "per_month": "/ay",
+    "beds": "Yatak",
+    "baths": "Banyo",
+    "area": "Alan",
+    "enquire": "Şimdi Sorgula",
+    "whatsapp": "WhatsApp",
+    "view": "Detayları Gör",
+    "available": "Müsait",
+    "sold": "Satıldı",
+    "rented": "Kiralandı",
+    "under_contract": "Sözleşmede",
+    "off_market": "Piyasa Dışı",
+    "featured": "Öne Çıkan"
+  },
+  "property": {
+    "overview": "Mülk Genel Bakışı",
+    "features": "Özellikler ve Olanaklar",
+    "location": "Konum",
+    "enquire_title": "Bu mülkle ilgileniyor musunuz?",
+    "enquire_sub": "Formu doldurun veya doğrudan WhatsApp üzerinden bize ulaşın.",
+    "related": "Benzer Mülkler"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "24 saat içinde yanıt veriyoruz.",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesaj gönderildi! Kısa sürede sizinle iletişime geçeceğiz.",
+    "whatsapp_line": "WhatsApp'tan bize yazın",
+    "address_label": "Ofis Adresi",
+    "address": "Classic Maison, Nairobi, Kenya",
+    "phone_label": "Telefon",
+    "email_label": "E-posta",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "Classic Maison Hakkında",
+    "story": "Classic Maison, Nairobi'nin önde gelen gayrimenkul şirketidir; lüks konut, ticari ve yatırım mülkleri konusunda uzmanlaşmıştır.",
+    "mission_title": "Misyonumuz",
+    "mission": "Güven, uzmanlık ve mükemmelliğe yönelik kararlı arayış üzerine kurulu eşsiz gayrimenkul deneyimleri sunmak.",
+    "values_title": "Değerlerimiz",
+    "values": ["Dürüstlük", "Mükemmellik", "Yenilik", "Müşteri Önce"]
+  },
+  "projects": {
+    "title": "Yaklaşan Projeler",
+    "subtitle": "Nairobi'yi yeniden tanımlayan vizyoner gelişmeler",
+    "status_planned": "Planlandı",
+    "status_in_progress": "Devam Ediyor",
+    "status_completed": "Tamamlandı",
+    "status_on_hold": "Beklemede",
+    "completion": "Tahmini Tamamlanma",
+    "units": "Toplam Birim",
+    "available": "Müsait Birim",
+    "from": "Başlangıç Fiyatı",
+    "enquire": "İlgi Kaydet"
+  },
+  "offers": {
+    "title": "Özel Teklifler",
+    "subtitle": "Ciddi alıcılar için özel fırsatlar",
+    "expires": "Bitiş",
+    "days_left": "gün kaldı",
+    "terms": "Şartlar ve Koşullar",
+    "enquire": "Bu Teklifi Al",
+    "expired": "Teklif Sona Erdi",
+    "no_offers": "Şu anda aktif teklif yok. Yakında tekrar kontrol edin."
+  },
+  "footer": {
+    "tagline": "Kenya ve ötesinde premium gayrimenkul.",
+    "quick_links": "Hızlı Bağlantılar",
+    "property_types": "Mülk Türleri",
+    "follow": "Bizi Takip Edin",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "view_more": "Daha Fazla Gör",
+    "back": "Geri",
+    "kes": "KES",
+    "per_month": "/ ay",
+    "sqft": "sq ft",
+    "acres": "dönüm",
+    "sqm": "m²"
+  }
+}

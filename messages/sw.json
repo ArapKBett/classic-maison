@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "listings": "Orodha",
+    "residential": "Makazi",
+    "commercial": "Biashara",
+    "land": "Ardhi",
+    "luxury": "Anasa",
+    "rentals": "Pango",
+    "industrial": "Viwanda",
+    "projects": "Miradi",
+    "offers": "Ofa",
+    "about": "Kuhusu",
+    "contact": "Wasiliana"
+  },
+  "hero": {
+    "tagline": "Hadhi Inakutana na Mali",
+    "sub": "Mali bora zaidi za Nairobi — zilizochaguliwa kwa wachache waliochaguliwa.",
+    "cta_listings": "Ona Orodha",
+    "cta_contact": "Wasiliana Nasi"
+  },
+  "featured": {
+    "title": "Mali Zilizopewa Kipaumbele",
+    "subtitle": "Zilizochaguliwa kutoka kwa mkusanyo wetu wa kipekee",
+    "view_all": "Ona Orodha Zote"
+  },
+  "stats": {
+    "sold": "Mali Zilizouzwa",
+    "active": "Orodha Zinazoendelea",
+    "projects": "Miradi Iliyokamilika",
+    "years": "Miaka ya Ubora"
+  },
+  "projects_home": {
+    "title": "Miradi Inayokuja",
+    "subtitle": "Wekeza mapema. Linda urithi wako.",
+    "view_all": "Miradi Yote"
+  },
+  "offers_home": {
+    "title": "Ofa za Sasa",
+    "subtitle": "Mikataba ya muda mfupi — tenda haraka",
+    "view_all": "Ofa Zote"
+  },
+  "instagram": {
+    "title": "Fuata Safari Yetu",
+    "subtitle": "Gundua orodha zetu za hivi karibuni na maudhui ya maisha",
+    "follow": "Fuata @classicmaison"
+  },
+  "cta": {
+    "title": "Uko Tayari Kupata Mali Yako ya Ndoto?",
+    "subtitle": "Wataalamu wetu wanakusubiri. Hebu tufanye iwe kweli.",
+    "whatsapp": "Zungumza kwenye WhatsApp",
+    "contact": "Tuma Ujumbe"
+  },
+  "listings": {
+    "title": "Orodha Zote",
+    "filter_type": "Aina ya Mali",
+    "filter_status": "Hali",
+    "filter_price": "Kiwango cha Bei",
+    "filter_beds": "Vyumba vya Kulala",
+    "all_types": "Aina Zote",
+    "all_statuses": "Hali Zote",
+    "sort": "Panga Kulingana na",
+    "sort_newest": "Mpya Zaidi",
+    "sort_price_asc": "Bei: Chini hadi Juu",
+    "sort_price_desc": "Bei: Juu hadi Chini",
+    "no_results": "Hakuna mali zilizopatikana. Jaribu kurekebisha vichujio vyako.",
+    "per_month": "/mwezi",
+    "beds": "Vyumba",
+    "baths": "Bafu",
+    "area": "Eneo",
+    "enquire": "Uliza Sasa",
+    "whatsapp": "WhatsApp",
+    "view": "Ona Maelezo",
+    "available": "Inapatikana",
+    "sold": "Imeuzwa",
+    "rented": "Imepangishwa",
+    "under_contract": "Chini ya Mkataba",
+    "off_market": "Nje ya Soko",
+    "featured": "Iliyopewa Kipaumbele"
+  },
+  "property": {
+    "overview": "Muhtasari wa Mali",
+    "features": "Vipengele na Huduma",
+    "location": "Mahali",
+    "enquire_title": "Una nia ya mali hii?",
+    "enquire_sub": "Jaza fomu au wasiliana nasi moja kwa moja kwenye WhatsApp.",
+    "related": "Mali Zinazofanana"
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Tunajibu ndani ya masaa 24.",
+    "name": "Jina Kamili",
+    "email": "Anwani ya Barua Pepe",
+    "phone": "Nambari ya Simu",
+    "message": "Ujumbe Wako",
+    "send": "Tuma Ujumbe",
+    "sending": "Inatuma...",
+    "success": "Ujumbe umetumwa! Tutawasiliana nawe hivi karibuni.",
+    "whatsapp_line": "Zungumza nasi kwenye WhatsApp",
+    "address_label": "Anwani ya Ofisi",
+    "address": "Classic Maison, Nairobi, Kenya",
+    "phone_label": "Simu",
+    "email_label": "Barua Pepe",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "Kuhusu Classic Maison",
+    "story": "Classic Maison ni kampuni ya kwanza ya mali isiyohamika ya Nairobi, inayobobea katika makazi ya anasa, biashara, na mali za uwekezaji.",
+    "mission_title": "Dhamira Yetu",
+    "mission": "Kutoa uzoefu wa kipekee wa mali isiyohamika — uliojenga juu ya uaminifu, utaalamu, na utafutaji wa ubora.",
+    "values_title": "Maadili Yetu",
+    "values": ["Uaminifu", "Ubora", "Uvumbuzi", "Mteja Kwanza"]
+  },
+  "projects": {
+    "title": "Miradi Inayokuja",
+    "subtitle": "Maendeleo ya kimaono yanayobadilisha Nairobi",
+    "status_planned": "Imepangwa",
+    "status_in_progress": "Inaendelea",
+    "status_completed": "Imekamilika",
+    "status_on_hold": "Imesimamishwa",
+    "completion": "Kukamilika Kukadiriwa",
+    "units": "Jumla ya Vitengo",
+    "available": "Vitengo Vinavyopatikana",
+    "from": "Kuanzia",
+    "enquire": "Sajili Nia"
+  },
+  "offers": {
+    "title": "Ofa Maalum",
+    "subtitle": "Mikataba ya kipekee kwa wanunuzi wanaoamini",
+    "expires": "Inaisha",
+    "days_left": "siku zimesalia",
+    "terms": "Masharti na Hali",
+    "enquire": "Dai Ofa Hii",
+    "expired": "Ofa Imeisha",
+    "no_offers": "Hakuna ofa zinazoendelea kwa sasa. Rudi hivi karibuni."
+  },
+  "footer": {
+    "tagline": "Mali bora za Kenya na zaidi.",
+    "quick_links": "Viungo vya Haraka",
+    "property_types": "Aina za Mali",
+    "follow": "Tufuate",
+    "rights": "Haki zote zimehifadhiwa.",
+    "privacy": "Sera ya Faragha",
+    "terms": "Masharti ya Huduma"
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Kuna hitilafu. Tafadhali jaribu tena.",
+    "view_more": "Ona Zaidi",
+    "back": "Rudi",
+    "kes": "KES",
+    "per_month": "/ mwezi",
+    "sqft": "sq ft",
+    "acres": "ekari",
+    "sqm": "sq m"
+  }
+}

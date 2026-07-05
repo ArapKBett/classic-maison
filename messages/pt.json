@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Início",
+    "listings": "Imóveis",
+    "residential": "Residencial",
+    "commercial": "Comercial",
+    "land": "Terrenos",
+    "luxury": "Luxo",
+    "rentals": "Arrendamento",
+    "industrial": "Industrial",
+    "projects": "Projetos",
+    "offers": "Ofertas",
+    "about": "Sobre nós",
+    "contact": "Contato"
+  },
+  "hero": {
+    "tagline": "Onde o Prestígio Encontra o Imobiliário",
+    "sub": "Os melhores imóveis de Nairobi — selecionados para poucos privilegiados.",
+    "cta_listings": "Ver imóveis",
+    "cta_contact": "Contate-nos"
+  },
+  "featured": {
+    "title": "Imóveis em Destaque",
+    "subtitle": "Selecionados do nosso portfólio exclusivo",
+    "view_all": "Ver todos os imóveis"
+  },
+  "stats": {
+    "sold": "Imóveis vendidos",
+    "active": "Anúncios ativos",
+    "projects": "Projetos entregues",
+    "years": "Anos de excelência"
+  },
+  "projects_home": {
+    "title": "Próximos Projetos",
+    "subtitle": "Invista cedo. Garanta o seu legado.",
+    "view_all": "Todos os projetos"
+  },
+  "offers_home": {
+    "title": "Ofertas Atuais",
+    "subtitle": "Ofertas por tempo limitado — aja rápido",
+    "view_all": "Todas as ofertas"
+  },
+  "instagram": {
+    "title": "Siga Nossa Jornada",
+    "subtitle": "Descubra nossos últimos imóveis e conteúdo de estilo de vida",
+    "follow": "Seguir @classicmaison"
+  },
+  "cta": {
+    "title": "Pronto para Encontrar o Imóvel dos Seus Sonhos?",
+    "subtitle": "Nossos especialistas estão disponíveis. Vamos tornar isso realidade.",
+    "whatsapp": "Conversar no WhatsApp",
+    "contact": "Enviar mensagem"
+  },
+  "listings": {
+    "title": "Todos os Imóveis",
+    "filter_type": "Tipo de imóvel",
+    "filter_status": "Estado",
+    "filter_price": "Faixa de preço",
+    "filter_beds": "Quartos",
+    "all_types": "Todos os tipos",
+    "all_statuses": "Todos os estados",
+    "sort": "Ordenar por",
+    "sort_newest": "Mais recente",
+    "sort_price_asc": "Preço: menor ao maior",
+    "sort_price_desc": "Preço: maior ao menor",
+    "no_results": "Nenhum imóvel encontrado. Tente ajustar seus filtros.",
+    "per_month": "/mês",
+    "beds": "Quartos",
+    "baths": "Banheiros",
+    "area": "Área",
+    "enquire": "Consultar agora",
+    "whatsapp": "WhatsApp",
+    "view": "Ver detalhes",
+    "available": "Disponível",
+    "sold": "Vendido",
+    "rented": "Arrendado",
+    "under_contract": "Sob contrato",
+    "off_market": "Fora do mercado",
+    "featured": "Destaque"
+  },
+  "property": {
+    "overview": "Visão geral do imóvel",
+    "features": "Características e comodidades",
+    "location": "Localização",
+    "enquire_title": "Interessado neste imóvel?",
+    "enquire_sub": "Preencha o formulário ou entre em contato diretamente pelo WhatsApp.",
+    "related": "Imóveis similares"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Respondemos em 24 horas.",
+    "name": "Nome completo",
+    "email": "Endereço de e-mail",
+    "phone": "Número de telefone",
+    "message": "Sua mensagem",
+    "send": "Enviar mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada! Entraremos em contato em breve.",
+    "whatsapp_line": "Converse conosco no WhatsApp",
+    "address_label": "Endereço do escritório",
+    "address": "Classic Maison, Nairóbi, Quénia",
+    "phone_label": "Telefone",
+    "email_label": "E-mail",
+    "email_addr": "info@classicmaison.co.ke"
+  },
+  "about": {
+    "title": "Sobre a Classic Maison",
+    "story": "A Classic Maison é a principal empresa imobiliária de Nairóbi, especializada em propriedades residenciais de luxo, comerciais e de investimento.",
+    "mission_title": "Nossa Missão",
+    "mission": "Oferecer experiências imobiliárias incomparáveis — construídas sobre confiança, especialização e busca incansável pela excelência.",
+    "values_title": "Nossos Valores",
+    "values": ["Integridade", "Excelência", "Inovação", "Cliente em primeiro lugar"]
+  },
+  "projects": {
+    "title": "Próximos Projetos",
+    "subtitle": "Desenvolvimentos visionários que redefinem Nairóbi",
+    "status_planned": "Planejado",
+    "status_in_progress": "Em progresso",
+    "status_completed": "Concluído",
+    "status_on_hold": "Em espera",
+    "completion": "Conclusão estimada",
+    "units": "Total de unidades",
+    "available": "Unidades disponíveis",
+    "from": "A partir de",
+    "enquire": "Registrar interesse"
+  },
+  "offers": {
+    "title": "Ofertas Especiais",
+    "subtitle": "Negócios exclusivos para compradores sérios",
+    "expires": "Expira",
+    "days_left": "dias restantes",
+    "terms": "Termos e condições",
+    "enquire": "Reivindicar esta oferta",
+    "expired": "Oferta expirada",
+    "no_offers": "Sem ofertas ativas no momento. Volte em breve."
+  },
+  "footer": {
+    "tagline": "Imóveis premium no Quénia e além.",
+    "quick_links": "Links rápidos",
+    "property_types": "Tipos de imóveis",
+    "follow": "Siga-nos",
+    "rights": "Todos os direitos reservados.",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Algo deu errado. Por favor tente novamente.",
+    "view_more": "Ver mais",
+    "back": "Voltar",
+    "kes": "KES",
+    "per_month": "/ mês",
+    "sqft": "pé²",
+    "acres": "acres",
+    "sqm": "m²"
+  }
+}
