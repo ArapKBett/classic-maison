@@ -17,13 +17,14 @@ export default function Hero({ locale }: HeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
-      <div
-        className="absolute inset-0"
-        style={{
-          background: 'linear-gradient(135deg, #0a0a0a 0%, #1e1a0f 25%, #1A1A1A 50%, #0f0f0f 75%, #1a1400 100%)',
-        }}
-      />
-      <div className="absolute inset-0 bg-gradient-to-b from-bg/60 via-bg/40 to-bg" />
+      <div className="absolute inset-0">
+        <img
+          src="/hero-bg.jpg"
+          alt=""
+          className="w-full h-full object-cover object-center"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-b from-bg/70 via-bg/50 to-bg" />
       <div className="absolute inset-0 bg-gradient-to-r from-bg/80 via-transparent to-bg/30" />
 
       {/* Decorative gold line */}
