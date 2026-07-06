@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation'
-import Image from 'next/image'
 import Link from 'next/link'
 import { prisma } from '@/lib/prisma'
 import { getTranslations } from 'next-intl/server'
@@ -13,6 +12,7 @@ import {
 } from '@/lib/utils'
 import PropertyCard from '@/components/ui/PropertyCard'
 import WhatsAppButton from '@/components/shared/WhatsAppButton'
+import PropertyImage from '@/components/ui/PropertyImage'
 import type { Property } from '@/types'
 
 interface PropertyDetailProps {
@@ -53,22 +53,24 @@ export default async function PropertyDetailPage({ params }: PropertyDetailProps
           <div className="lg:col-span-2">
             {/* Image gallery */}
             <div className="rounded-2xl overflow-hidden mb-8">
-              {images.length > 0 ? (
-                <div className="grid grid-cols-2 gap-2">
-                  <div className="col-span-2 relative h-72 sm:h-96">
-                    <Image src={images[0]} alt={property.title} fill className="object-cover" />
+              <div className="grid grid-cols-2 gap-2">
+                <div className="col-span-2 relative h-72 sm:h-96 rounded-xl overflow-hidden">
+                  <PropertyImage
+                    src={images[0]}
+                    alt={property.title}
+                    gradientIndex={property.title.charCodeAt(0)}
+                  />
+                </div>
+                {images.slice(1, 3).map((img, i) => (
+                  <div key={i} className="relative h-40 sm:h-52 rounded-xl overflow-hidden">
+                    <PropertyImage
+                      src={img}
+                      alt={`${property.title} ${i + 2}`}
+                      gradientIndex={property.title.charCodeAt(0) + i + 1}
+                    />
                   </div>
-                  {images.slice(1, 3).map((img, i) => (
-                    <div key={i} className="relative h-40 sm:h-52">
-                      <Image src={img} alt={`${property.title} ${i + 2}`} fill className="object-cover" />
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="h-72 bg-bg-elevated flex items-center justify-center text-ink-faint rounded-2xl">
-                  No images available
-                </div>
-              )}
+                ))}
+              </div>
             </div>
 
             {/* Title & status */}

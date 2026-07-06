@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { prisma } from '@/lib/prisma'
 import { getTranslations } from 'next-intl/server'
 import PropertyCard from '@/components/ui/PropertyCard'
@@ -22,7 +23,9 @@ export default async function LandPage({ params }: { params: Promise<{ locale: s
           <h1 className="font-serif text-4xl lg:text-5xl font-bold text-ink mb-2">{t('nav.land')}</h1>
           <p className="text-ink-muted">Prime plots and land parcels across Kenya — title deed ready.</p>
         </div>
-        <PropertyFilter hideTypeFilter />
+        <Suspense fallback={<div className="h-20 bg-bg-surface rounded-2xl animate-pulse mb-8" />}>
+          <PropertyFilter hideTypeFilter />
+        </Suspense>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {properties.map((p) => <PropertyCard key={p.id} property={p as unknown as Property} locale={locale} />)}
         </div>

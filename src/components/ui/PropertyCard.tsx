@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { BedDouble, Bath, Maximize2, MapPin, Star } from 'lucide-react'
 import { formatPrice, parseImages, statusColor, propertyTypeLabel } from '@/lib/utils'
 import { cn } from '@/lib/utils'
 import type { Property } from '@/types'
+import PropertyImage from './PropertyImage'
 
 interface PropertyCardProps {
   property: Property
@@ -22,12 +22,11 @@ export default function PropertyCard({ property, locale }: PropertyCardProps) {
     >
       {/* Image */}
       <div className="relative h-52 overflow-hidden">
-        <Image
-          src={img}
+        <PropertyImage
+          src={img !== '/placeholder-property.jpg' ? img : undefined}
           alt={property.title}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="group-hover:scale-105 transition-transform duration-500"
+          gradientIndex={property.title.charCodeAt(0)}
         />
         <div className="absolute inset-0 bg-dark-gradient" />
 

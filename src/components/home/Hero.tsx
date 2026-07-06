@@ -18,9 +18,9 @@ export default function Hero({ locale }: HeroProps) {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1920&q=80')`,
+          background: 'linear-gradient(135deg, #0a0a0a 0%, #1e1a0f 25%, #1A1A1A 50%, #0f0f0f 75%, #1a1400 100%)',
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-bg/60 via-bg/40 to-bg" />

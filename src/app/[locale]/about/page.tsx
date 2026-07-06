@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server'
-import Image from 'next/image'
 import Link from 'next/link'
+import PropertyImage from '@/components/ui/PropertyImage'
 import { Instagram, Award, Target, Eye, Users } from 'lucide-react'
 
 interface AboutPageProps {
@@ -48,11 +48,10 @@ export default async function AboutPage({ params }: AboutPageProps) {
 
           <div className="relative">
             <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden">
-              <Image
-                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+              <PropertyImage
+                src={undefined}
                 alt="Classic Maison luxury property"
-                fill
-                className="object-cover"
+                gradientIndex={3}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-bg/60 to-transparent" />
             </div>

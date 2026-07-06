@@ -72,8 +72,8 @@ export default function AdminListingsPage() {
       {loading ? (
         <div className="text-ink-muted">Loading...</div>
       ) : (
-        <div className="bg-bg-surface border border-border rounded-2xl overflow-hidden">
-          <table className="w-full text-sm">
+        <div className="bg-bg-surface border border-border rounded-2xl overflow-hidden overflow-x-auto">
+          <table className="w-full text-sm min-w-[600px]">
             <thead>
               <tr className="border-b border-border text-left">
                 <th className="px-4 py-3 text-ink-faint font-medium">Property</th>

@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { prisma } from '@/lib/prisma'
 import { getTranslations } from 'next-intl/server'
 import PropertyCard from '@/components/ui/PropertyCard'
@@ -33,7 +34,9 @@ function TypeListingsPage({ locale, title, description, properties }: { locale: 
           <h1 className="font-serif text-4xl lg:text-5xl font-bold text-ink mb-2">{title}</h1>
           <p className="text-ink-muted">{description}</p>
         </div>
-        <PropertyFilter hideTypeFilter />
+        <Suspense fallback={<div className="h-20 bg-bg-surface rounded-2xl animate-pulse mb-8" />}>
+          <PropertyFilter hideTypeFilter />
+        </Suspense>
         {properties.length === 0 ? (
           <div className="text-center py-20 text-ink-muted">
             <p className="text-lg">No properties in this category yet. Check back soon.</p>

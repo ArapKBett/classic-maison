@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { MapPin, Calendar, Building2 } from 'lucide-react'
 import { formatPrice, parseImages, projectStatusColor } from '@/lib/utils'
 import type { Project } from '@/types'
+import PropertyImage from './PropertyImage'
 
 interface ProjectCardProps {
   project: Project
@@ -24,12 +24,11 @@ export default function ProjectCard({ project, locale }: ProjectCardProps) {
     <div className="group bg-bg-surface border border-border rounded-2xl overflow-hidden hover:border-gold/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-gold/5">
       {/* Image */}
       <div className="relative h-52 overflow-hidden">
-        <Image
-          src={img}
+        <PropertyImage
+          src={img !== '/placeholder-property.jpg' ? img : undefined}
           alt={project.title}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="group-hover:scale-105 transition-transform duration-500"
+          gradientIndex={project.title.charCodeAt(0)}
         />
         <div className="absolute inset-0 bg-dark-gradient" />
 

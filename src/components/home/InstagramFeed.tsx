@@ -1,7 +1,6 @@
 'use client'
 
 import { useRef } from 'react'
-import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
 import { Instagram, Heart, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-react'
@@ -13,63 +12,63 @@ import 'swiper/css/navigation'
 const PLACEHOLDER_POSTS = [
   {
     id: '1',
-    image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #1e1a0f 0%, #2d2516 60%, #1a1a1a 100%)',
     caption: 'Luxury living redefined. This stunning Karen villa is now on the market. DM for details. #ClassicMaison #LuxuryRealEstate #Nairobi',
     likes: 342,
     comments: 28,
   },
   {
     id: '2',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #0f1e1a 0%, #0e2820 60%, #1a1a1a 100%)',
     caption: 'Your dream home awaits in Westlands. 3-bed apartment with panoramic city views. #NairobiRealEstate #Westlands',
     likes: 218,
     comments: 15,
   },
   {
     id: '3',
-    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #1a1a10 0%, #28260e 60%, #1a1a1a 100%)',
     caption: 'Premium office space in Upper Hill. For the business that demands excellence. #CommercialProperty #UpperHill',
     likes: 189,
     comments: 11,
   },
   {
     id: '4',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #0f1a0f 0%, #0e2812 60%, #1a1a1a 100%)',
     caption: 'Prime plots in Ruiru — invest in the future. Title deed ready. 📞 +254 700 200 658',
     likes: 275,
     comments: 33,
   },
   {
     id: '5',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #1a0f1e 0%, #241026 60%, #1a1a1a 100%)',
     caption: 'Maison Royale Runda — 24 ultra-luxury villas now launching. Early bird pricing available. #NewDevelopment',
     likes: 512,
     comments: 47,
   },
   {
     id: '6',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #1e0f0f 0%, #2a1010 60%, #1a1a1a 100%)',
     caption: 'Penthouse living in the heart of Nairobi. Breathtaking 360° views. One-of-a-kind. #Penthouse #ClassicMaison',
     likes: 631,
     comments: 54,
   },
   {
     id: '7',
-    image: 'https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #0f1a1e 0%, #10242a 60%, #1a1a1a 100%)',
     caption: 'Fully furnished 2-bedroom in Kilimani — available immediately. Contact us today! #Kilimani #Rental',
     likes: 156,
     comments: 9,
   },
   {
     id: '8',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #1e1a0a 0%, #2a2410 60%, #1a1a1a 100%)',
     caption: 'The Classic Towers — redefining the Nairobi skyline. Registrations open now. #ClassicTowers',
     likes: 408,
     comments: 62,
   },
   {
     id: '9',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80',
+    gradient: 'linear-gradient(135deg, #1a0a1e 0%, #24102a 60%, #1a1a1a 100%)',
     caption: 'Lavington townhouse — 4 beds, rooftop terrace, private garden. Elegance at every corner. #Lavington',
     likes: 293,
     comments: 21,
@@ -156,13 +155,15 @@ export default function InstagramFeed() {
                 className="group block bg-bg-elevated border border-border rounded-xl overflow-hidden hover:border-gold/40 transition-all duration-300"
               >
                 <div className="relative aspect-square overflow-hidden">
-                  <Image
-                    src={post.image}
-                    alt={post.caption.slice(0, 60)}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    sizes="280px"
-                  />
+                  <div
+                    className="absolute inset-0 group-hover:scale-105 transition-transform duration-500"
+                    style={{ background: post.gradient }}
+                  >
+                    <svg className="absolute inset-0 m-auto w-10 h-10 opacity-20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" strokeWidth="1">
+                      <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                      <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                  </div>
                   {/* Hover overlay */}
                   <div className="absolute inset-0 bg-bg/70 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-6">
                     <span className="flex items-center gap-1.5 text-white font-semibold text-sm">

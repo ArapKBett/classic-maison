@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { prisma } from '@/lib/prisma'
 import { getTranslations } from 'next-intl/server'
 import PropertyCard from '@/components/ui/PropertyCard'
@@ -98,7 +99,9 @@ export default async function ListingsPage({ params, searchParams }: ListingsPag
           ))}
         </div>
 
-        <PropertyFilter />
+        <Suspense fallback={<div className="h-20 bg-bg-surface rounded-2xl animate-pulse mb-8" />}>
+          <PropertyFilter />
+        </Suspense>
 
         {/* Grid */}
         {properties.length === 0 ? (
