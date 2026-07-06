@@ -1,16 +1,10 @@
 import createNextIntlPlugin from 'next-intl/plugin'
 import path from 'path'
-import { fileURLToPath } from 'url'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  webpack: (config) => {
-    config.resolve.alias['@'] = path.resolve(__dirname, 'src')
-    return config
-  },
+const baseConfig = {
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com' },
@@ -21,4 +15,28 @@ const nextConfig = {
   },
 }
 
-export default withNextIntl(nextConfig)
+// Apply next-intl plugin first
+const intlConfig = withNextIntl(baseConfig)
+
+// Then inject our webpack alias AFTER the plugin, so it always runs last
+// and applies to both server and client webpack builds
+const intlWebpack = intlConfig.webpack
+
+intlConfig.webpack = (config, options) => {
+  // Run next-intl's webpack first (if any)
+  const result = typeof intlWebpack === 'function'
+    ? intlWebpack(config, options)
+    : config
+
+  // Force-set the @/ alias using process.cwd() which is always the project root
+  result.resolve.alias = {
+    ...(typeof result.resolve.alias === 'object' && !Array.isArray(result.resolve.alias)
+      ? result.resolve.alias
+      : {}),
+    '@': path.join(process.cwd(), 'src'),
+  }
+
+  return result
+}
+
+export default intlConfig
